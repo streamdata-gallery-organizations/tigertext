@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - TigerText",
+	"description": "This is a repository of tigertext APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/tigertext.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://tigertext.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "TigerText",
+			"x-api-slug": "tigertext",
+			"description": "TigerText is a multi-platform, secure, real-time messaging application for the enterprise that allows text messages to be deleted from both the senders and the receivers phones after expiration, which could be a set period of time or after reading. The messages cannot be saved, copied or forwarded by recipients. TigerText does this by storing the message on a company server, not the receiving and sending device, and deleting when the expiration conditions are met.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png",
+			"humanURL": "http://www.tigertext.com/",
+			"baseURL": "https://developer.tigertext.me//v2/",
+			"tags": "TigerText",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/tigertext/master/_listings/tigertext/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "TigerText",
+	"include": [
+		{
+			"name": "TigerText",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/tigertext/master/_listings/tigertext/apis.yaml"
+		}
+	]
+}

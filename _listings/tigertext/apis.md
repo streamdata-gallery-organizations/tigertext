@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: TigerText
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-31"
+modified: "2018-08-31"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tigertext/master/_listings/tigertext/apis.md
 specificationVersion: "0.14"
 apis:
@@ -237,6 +237,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tigertext/master/_listings/tigertext/metadatagroup-token-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tigertext/master/_listings/tigertext/metadatagroup-token-get-openapi.md
+- name: Tiger Connect Metadata API - Adds metadata for a User or Group based on address
+    encoding
+  x-api-slug: metadatagroup-token-post
+  description: Adds metadata for a User or Group based on address encoding
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
+  humanURL: http://www.tigertext.com/
+  baseURL: https://developer.tigertext.me//v2/
+  tags: SMS, Secure, SMS, Getting Started Example, SMS, Messages, Messages, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tigertext/master/_listings/tigertext/metadatagroup-token-post-openapi.md
 - name: Tiger Connect Roster API - Get the recent conversation list for a user. As
     new messages are sent and received, the roster is updated with those conversations.
   x-api-slug: roster-get
